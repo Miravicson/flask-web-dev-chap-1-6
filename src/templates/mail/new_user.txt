@@ -1,0 +1,1 @@
+Hi Victor, a new user with username {{user.username}} was created.

@@ -38,13 +38,17 @@
     "python.dataScience.enabled": true,
     "python.linting.pycodestyleEnabled": false,
     "python.linting.flake8Enabled": true,
-    "python.linting.flake8Args": ["--ignore=E501"],
+    "python.linting.flake8Args": ["--ignore=E501", "--ignore=E402"],
     "[markdown]": {
         "editor.wordWrap": "on"
     },
     "files.associations": {
         "Brewfile": "ruby",
-        "vimrc": "viml"
+        "vimrc": "viml",
+        "*.html": "jinja-html"
+    },
+    "emmet.includeLanguages": {
+        "jinja-html": "html"
     },
     "files.exclude": {
         "**/.git": true,
